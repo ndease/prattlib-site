@@ -68,20 +68,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      <div class="row">
      <div class="home-page-splash" id="search">
      <h1 style="text-align:left;">RESEARCH & DISCOVER</h1>
-       <script src="https://support.ebscohost.com/eit/scripts/ebscohostsearch.js"></script>
-       <form role="search" action="" method="post" onsubmit="return ebscoHostSearchGo(this);">
-       <input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="0" />
-       <input id="ebscohosturl" type="hidden" name="ebscohosturl" value="https://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;type=0&amp;site=eds-live&amp;custid=s8440772&amp;groupid=main&amp;profid=eds&amp;lang=en&amp;authtype=cookie,ip,guest" />
-       <input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
-       <input id="ebscohostsearchmode" type="hidden" name="ebscohostsearchmode" value="+" />
-       <input id="ebscohostkeywords" type="hidden" name="ebscohostkeywords" value="" />
-       <div class="input-group input-group-lg">
-        <input id="ebscohostsearchtext" name="ebscohostsearchtext" aria-label="Search through library collections" class="form-control py=2 shadow search-bar" placeholder="Find books, articles, guides & more" type="text" />
-        <span class="input-group-append">
-        <button id="search-ebsco" type="submit" aria-label="Library Search" value="search" class="btn btn-outline-secondary border-0 search-button"><i class="fa fa-search"></i>
-        </button>
-       </span>
-       </div>
+     <script type="text/javascript" src="https://imageserver.ebscohost.com/branding/tabbedsearch/js/FormProcessing.js"></script>
+     <form action="https://search.ebscohost.com/login.aspx" method="get" onsubmit="ebscoPreProcess(this)">
+     <input name="search_prefix" type="hidden" value="" /> <input name="direct" type="hidden" value="true" />
+     <input name="scope" type="hidden" value="site" /> <input name="site" type="hidden" value="eds-live" />
+     <input name="authtype" type="hidden" value="ip,guest" />
+     <input name="custid" type="hidden" value="s8440772" />
+     <input name="groupid" type="hidden" value="main" />
+     <input name="profile" type="hidden" value="eds" />
+     <input name="bquery" type="hidden" value="" />
+     <div class="input-group input-group-lg">
+     <input aria-label="Search through library collections" name="uquery" class="form-control py=2 shadow search-bar" placeholder="Find books, articles, guides & more" type="search" />
+     <span class="input-group-append">
+     <button type="submit" value="Search" class="btn btn-outline-secondary border-0 search-button"><i class="fa fa-search"></i></button>
+     </span>
+     </div>
      </form>
       <a style="text-shadow: 2px 2px 4px #000000; color:white !important; float:right; margin-top:5px; padding-right:35px;" href="https://search.ebscohost.com/login.aspx?direct=true&authtype=ip,guest&custid=s8440772&setup=1&groupid=main&profile=eds">Advanced Search</a>
 	   </div>
