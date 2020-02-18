@@ -848,4 +848,34 @@ padding-bottom:.4em;
       color: #0C77D4!important;
       text-decoration:none !important;
 }
+
+#instafetch img{
+width: 250px;
+margin: 10px;
+float: left;
+height: 250px;
+object-fit: cover;
+object-position: 100% 0;
+border-radius: 14px;
+}
+
+@media(max-width:750px){
+  #instafetch img{
+    width:100%;
+    margin:5px;
+    float:left;
+  }
+}
+#instafetch img:hover{
+opacity: .5;
+transition-duration: .3s;
+float: left;
+transform: scale(1.015);
+}
+
+#instafetch p{
+    position:  absolute !important;
+  top:  -9999px !important;
+  left:  -9999px !important;
+}
 </style>
