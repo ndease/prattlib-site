@@ -849,33 +849,9 @@ padding-bottom:.4em;
       text-decoration:none !important;
 }
 
-#instafetch img{
-width: 250px;
-margin: 10px;
-float: left;
-height: 250px;
-object-fit: cover;
-object-position: 100% 0;
-border-radius: 14px;
-}
-
-@media(max-width:750px){
-  #instafetch img{
-    width:100%;
-    margin:5px;
-    float:left;
-  }
-}
-#instafetch img:hover{
-opacity: .5;
-transition-duration: .3s;
-float: left;
-transform: scale(1.015);
-}
-
-#instafetch p{
-    position:  absolute !important;
-  top:  -9999px !important;
-  left:  -9999px !important;
+div#s-lg-widget-1579290774229 > ul > li > a {
+  font-size:  1.05em !important;
+  line-height:  1.5em !important;
+  font-family:  "ApercuMedium",  Helvetica,  Arial,  sans-serif !important;
 }
 </style>
