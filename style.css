@@ -4,6 +4,8 @@ html,  body  {
     margin:  0;
     padding:  0;
 }
+
+@font-face {
 font-family: 'ApercuBold';
     src:  url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.eot/fonts/apercu-bold-webfont.eot");
     src:  url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.eot?#iefix") format("embedded-opentype"),  url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.svg#ApercuBold") format("svg"),  url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.woff") format("woff"),  url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.ttf") format("truetype");
@@ -123,7 +125,6 @@ h1  {
 }
 h2  {
     font-size:  1.5rem !important;
-    font-family:  inherit !important;
     font-weight:  500 !important;
     line-height:  1.2 !important;
     color:  inherit !important;
@@ -854,4 +855,48 @@ div#s-lg-widget-1579290774229 > ul > li > a {
   line-height:  1.5em !important;
   font-family:  "ApercuMedium",  Helvetica,  Arial,  sans-serif !important;
 }
+
+/*lib-chat button style*/
+.libchat_online{
+  transform: rotate(90deg) !important;
+  -webkit-transform-origin: top left;
+-ms-transform-origin: top left;
+transform-origin: top left;
+  width: 160px;
+  height: 43px;
+  display: block;
+  position:fixed;
+  text-align: center;
+  box-sizing: border-box;
+  top: 40%;
+  left:100%;
+  font-size:16px;
+  right:0;
+  transform: translateY(-50%);
+  border-radius:0px 0px 10px 10px !important;
+  z-index:1000 !important;
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(255, 185, 0) !important;
+  box-shadow: rgb(204, 204, 204) 0px 0px 5px;
+  border-width: 0px 4px 4px;
+}
+ .libchat_offline{
+  transform: rotate(90deg) !important;
+  -webkit-transform-origin: top left;
+-ms-transform-origin: top left;
+transform-origin: top left;
+  position: fixed;
+  width: 160px;
+  height: 43px;
+  text-align: center;
+  top: 40%;
+  font-size:16px;
+  left:100% !important;
+  right:0;
+  transform: translateY(-50%);
+  border-radius:0px 0px 10px 10px !important;
+  color:black !important;
+  z-index:1000 !important;
+  background-color: rgb(255, 185, 0) !important;
+  box-shadow: rgb(204, 204, 204) 0px 0px 5px; border-width: 0px 4px 4px;
 </style>
