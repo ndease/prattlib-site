@@ -1,5 +1,7 @@
 <style>
-
+:root {
+  font-size:1rem;
+}
 html,  body  {
     margin:  0;
     padding:  0;
@@ -360,7 +362,7 @@ footer  {
 }
 .navbar-custom .navbar-nav .nav-link  {
     color:  white !important;
-    font-size:  15px;
+    font-size:  1.1rem;
     letter-spacing:  .08em;
 }
 .navbar-custom .nav-item.active .nav-link,  .navbar-custom .nav-item:hover .nav-link  {
@@ -478,8 +480,8 @@ footer  {
     r }
 @media (min-width:  1000px)  {
     .home-page-splash  {
-    margin-top:  190px !important;
-    margin-bottom:  140px !important;
+    margin-top:  180px !important;
+    margin-bottom:  100px !important;
     padding:  10px !important;
     width:  60% !important;
     margin-left:  20%;
@@ -501,7 +503,7 @@ footer  {
     color:  #FFB900 !important;
 }
 .quick-tools  {
-    font-size:  15px;
+    font-size:  1rem;
 }
 .quick-tools a  {
     color:  white !important;
@@ -606,7 +608,7 @@ img  {
 }
 .image-text  {
     color:  white;
-    font-size:  20px;
+    font-size:  1.3rem;
     position:  absolute;
     top:  50%;
     left:  50%;
@@ -697,7 +699,7 @@ img  {
 }
 .search-box li a  {
     color:  white;
-    font-size:  14px;
+    font-size:  1rem;
     padding:  5px 15px 5px 15px !important;
 }
 .search-box .nav-item  {
@@ -755,7 +757,7 @@ img  {
     color:  white;
     border-width:  2px;
     font-family:  "ApercuMedium",  Helvetica,  Arial,  sans-serif !important;
-    font-size:  16px;
+    font-size:  1rem;
     margin:  10px;
 }
 .closebtn  {
@@ -763,7 +765,7 @@ img  {
     color:  white;
     font-weight:  bold;
     float:  right;
-    font-size:  22px;
+    font-size:  1.3rem;
     line-height:  20px;
     cursor:  pointer;
     transition:  0.3s;
@@ -803,7 +805,7 @@ img  {
     background-color:  rgb(255,  185,  0) !important;
     border-bottom-left-radius:  10px;
     border-bottom-right-radius:  10px;
-    font-size:  17px;
+    font-size:  1.1rem;
     border:  0px !important;
 }
 @media(max-width:800px) {
@@ -855,6 +857,22 @@ div#s-lg-widget-1579290774229 > ul > li > a {
   line-height:  1.5em !important;
   font-family:  "ApercuMedium",  Helvetica,  Arial,  sans-serif !important;
 }
+
+.pratt-btn{
+	background-color:#FFB900;
+	margin:1rem;
+	padding: 1.25rem;
+	border-radius:5px;
+	color:black !important;
+display:block;
+	text-align:center;
+        transition-duration: 0.2s;}
+
+.pratt-btn:hover{
+    background-color:#0C77D4 !important;
+    color:white !important;
+text-decoration:none;
+        }
 
 /*lib-chat button style*/
 
